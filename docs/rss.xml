@@ -1,2 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://pengyuw96.github.io/local-</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://pengyuw96.github.io/local-</link></image><lastBuildDate>Wed, 11 Dec 2024 07:57:29 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://pengyuw96.github.io/local-</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://pengyuw96.github.io/local-</link></image><lastBuildDate>Wed, 11 Dec 2024 16:31:27 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>my first c programming </title><link>https://pengyuw96.github.io/local-/post/my%20first%20c%20programming%20.html</link><description>#include &lt;stdio.h&gt;&#13;
+int main(){&#13;
+    int M,N;&#13;
+    scanf('%d %d',&amp;M,&amp;N);&#13;
+    if(M&gt;N ||M&lt;100|| N&gt;999){&#13;
+        printf('Invalid Value.');&#13;
+    }&#13;
+    else{&#13;
+        for(int i=M;i&lt;=N;i++){&#13;
+            int t=i,sum=0;&#13;
+            while(t){&#13;
+            sum+=(t%10)*(t%10)*(t%10);&#13;
+            t/=10;&#13;
+            }&#13;
+            if(sum==i){&#13;
+                printf('%d\n',i);}&#13;
+        }&#13;
+    }&#13;
+    return 0;&#13;
+}。</description><guid isPermaLink="true">https://pengyuw96.github.io/local-/post/my%20first%20c%20programming%20.html</guid><pubDate>Wed, 11 Dec 2024 08:00:51 +0000</pubDate></item></channel></rss>
